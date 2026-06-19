@@ -1,0 +1,11 @@
+anthropic
+pandas
+beautifulsoup4
+sec-edgar-downloader
+unstructured
+python-dotenv
+pydantic
+# asyncio is part of the Python standard library (3.4+); no PyPI install needed.
+# Listed here per project spec, but pip-installing the PyPI "asyncio" backport
+# is discouraged on modern Python and can break builds. Leaving it commented out.
+# asyncio
